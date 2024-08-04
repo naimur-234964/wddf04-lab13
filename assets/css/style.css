@@ -1,0 +1,272 @@
+/* Common styles start */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@font-face {
+    src: url(../fonts/source-sans-pro/SourceSansPro-Regular.ttf);
+    font-family: SourceSansProR;
+}
+
+@font-face {
+    src: url(../fonts/source-sans-pro/SourceSansPro-Bold.ttf);
+    font-family: SourceSansProB;
+}
+
+.container-fluid {
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container {
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    height: 100%;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.border {
+    /*border: 1px solid teal;*/
+    box-sizing: border-box;
+}
+
+.my-25 {
+    margin: 25px 0;
+}
+
+.float-start {
+    float: left;
+    height: 100%;
+}
+
+.float-end {
+    float: right;
+    height: 100%;
+}
+
+.a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+/* Common styles end */
+
+/* navbar section start */
+#navbar {
+    height: 60px;
+}
+
+.navbar-brand a {
+    color: rgba(0, 0, 0, 0.9);
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: .8;
+    padding: 20px 20px 20px 0;
+}
+
+.navbar-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar-nav ul li a {
+    color: rgba(0, 0, 0, 0.7);
+    font-family: SourceSansProR;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 10px;
+    padding: 20px 20px;
+    display: inline-block;
+}
+
+.navbar-btn a {
+    color: #03A87C;
+    font-family: SourceSansProR;
+    font-size: 15px;
+    font-weight: 400;
+    border: 1px solid #03A87C;
+    margin: 12px 0;
+    padding: 6px 30px;
+    border-radius: 6px;
+}
+
+/* navbar section start */
+
+/* Header section start */
+header {
+    height: 450px;
+}
+
+/* header-details start */
+.header-details {
+    padding: 30px 40px;
+    background-color: #E8F3EC;
+}
+
+.header-details h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #212529;
+}
+
+.header-details p {
+    font-family: SourceSansProR;
+    font-size: 16px;
+    font-weight: 400;
+    color: #212529;
+    line-height: 1.5;
+}
+
+.header-details a {
+    font-family: SourceSansProR;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #212529;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+/* header-details end */
+
+/* header-image start */
+.header-image {}
+
+/* header-image end */
+/* Header Section end */
+
+/* Blog Section start */
+/* blog-content start */
+#blog {
+    height: 300px;
+    margin: 40px 0;
+}
+
+.blog-content {
+    padding-right: 30px;
+}
+
+.blog-content img {
+    height: 130px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0% 0%;
+}
+
+.blog-title {
+    color: #212529;
+    font-family: SourceSansProR;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 15px 0px;
+}
+
+.blog-content p {
+    color: #212529;
+    font-family: SourceSansProR;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0px 0px 10px 0px;
+}
+
+.blog-content small {
+    color: #6c757d;
+    font-family: SourceSansProR;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.blog-content small a {
+    color: #6c757d;
+    display: block;
+}
+
+/* blog-content end */
+
+/* blog-list start */
+.blog-list {}
+
+.blog-list-item {
+    height: 80px;
+}
+
+.blog-list-item-image {
+    padding-right: 15px;
+}
+
+.blog-list-item-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.blog-list-item-content a {
+    color: #212529;
+    font-family: SourceSansProB;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.blog-list-item-content p {
+    color: #6c757d;
+    font-family: SourceSansProR;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    margin: 5px 0;
+}
+
+/* blog-list start */
+
+/* Blog Section end */
+
+
+
+
+
+
+
+
+
+
+
+/* header-details start */
+/* header-details end */
+/* header-details start */
+/* header-details end */
+/* header-details start */
+/* header-details end */
