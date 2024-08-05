@@ -10,7 +10,9 @@
     src: url(../fonts/source-sans-pro/SourceSansPro-Bold.ttf);
     font-family: SourceSansProB;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 .container-fluid {
     /* border: 1px solid red; */
     margin: 0px auto;
@@ -150,6 +152,9 @@ body {
     padding: 20px 20px;
     display: inline-block;
 }
+.navbar-nav ul li a:hover {
+    font-weight: 700;
+}
 
 .navbar-btn a {
     color: #03A87C;
@@ -160,6 +165,12 @@ body {
     margin: 12px 0;
     padding: 6px 30px;
     border-radius: 6px;
+    transition: 0.6s;
+}
+
+.navbar-btn a:hover {
+    color: #fff;
+    background: #03A87C;
 }
 
 /* navbar section start */
